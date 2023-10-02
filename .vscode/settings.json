@@ -1,0 +1,46 @@
+{
+    "editor.rulers": [100, 120],
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "eslint.validate": ["javascript"],
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+    "javascript.preferences.importModuleSpecifier": "shortest",
+    "javascript.inlayHints.parameterNames.enabled": "none",
+    "javascript.inlayHints.variableTypes.enabled": false,
+    "javascript.inlayHints.parameterTypes.enabled": false,
+    "javascript.referencesCodeLens.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[ignore]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[css]": {
+        "editor.wordWrap": "off"
+    },
+    "[properties]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "files.associations": {
+        "[Jj]enkinsfile*": "groovy",
+        ".env*": "properties"
+    },
+    "[dotenv]": {
+        "editor.formatOnSave": false
+    }
+}
