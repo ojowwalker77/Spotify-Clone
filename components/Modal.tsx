@@ -98,8 +98,6 @@ const Modal: React.FC<ModalProps> = ({
       </Dialog.Portal>
     </Dialog.Root>
   );
-} 
-
-export default Modal
+}
  
-
+export default Modal;
